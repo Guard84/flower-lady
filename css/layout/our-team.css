@@ -1,0 +1,6 @@
+.list-our-team {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 20px;
+}
