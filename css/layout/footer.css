@@ -1,0 +1,20 @@
+.footer-section {
+  background-color: var(--second-primary-color);
+  	padding-top: 58px;
+	padding-bottom: 58px;
+}
+
+.title-footer {
+  color: #FFC0CB;
+	font-family: "Gloock", sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	padding-bottom: 14px;
+}
+
+.text-footer {
+  color: #E6E6FA;
+}
