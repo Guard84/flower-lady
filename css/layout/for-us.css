@@ -1,0 +1,10 @@
+.list-for-us {
+  list-style-type: circle;
+  padding-left: 30px;
+  font-size: 18px;
+}
+
+.text {
+  font-size: 18px;
+  font-weight: normal;
+}
