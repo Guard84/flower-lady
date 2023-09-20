@@ -12,5 +12,7 @@
 }
 
 .logo-header {
-  width: 35px;
+	display: block;
+	width: 35px;
+	margin-top: 8px;
 }
