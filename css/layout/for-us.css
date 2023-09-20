@@ -1,10 +1,14 @@
+
 .list-for-us {
   list-style-type: circle;
   padding-left: 30px;
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .text {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
