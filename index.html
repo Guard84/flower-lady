@@ -3,16 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gloock&family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
     <title>Flower Lady</title>
   </head>
   <body>
     <!-- HEADER -->
-    <header>
-      <div>
-        <a href="index.html"
+    <header class="header-page">
+      <div class="container header-container">
+        <a class="logo-header" href="index.html"
           ><img src="./images/logo.png" alt="Flower Lady logo" width="150"
         /></a>
-        <nav>
+        <nav class="nav-header">
           <ul>
             <li><a href="#">Про нас</a></li>
             <li><a href="#">Наша команда</a></li>
@@ -20,7 +27,7 @@
             <li><a href="#">Як нас знайти</a></li>
           </ul>
         </nav>
-        <address>
+        <address class="nav-address">
           <ul>
             <li><a href="tel:+380506898156">+38 050 689 81 56</a></li>
             <li>
@@ -38,71 +45,99 @@
     </header>
 
     <!-- HERO -->
-    <section>
-      <h1>Flower Lady</h1>
-      <p>
-        Студія краси в м. Черкаси. Широкий вибір послуг. Професійна косметика та
-        догляд за собою
-      </p>
+    <section class="section">
+      <div class="container">
+        <h1 class="title">Flower Lady</h1>
+        <p class="text">
+          Студія краси в м. Черкаси. Широкий вибір послуг. Професійна косметика
+          та догляд за собою
+        </p>
+      </div>
     </section>
 
     <!-- FOR US -->
-    <section>
-      <h2>
-        Якщо ви опинилися тут, значить шукаєте хорошу студію для догляду за
-        собою
-      </h2>
-      <p>
-        Вітаємо, ви знайшли її! Фішка салону Flower Lady в тому, що до нас
-        хочеться повертатися. А знаєте чому? Тому що у нас: затишна обстановка
-        ввічливе спілкування золоті руки наших майстрів гарантія довгострокового
-        результату при дотриманні всіх рекомендацій абсолютна стерильність
-        обов’язкова консультація майстра акції та спецпропозиції для постійних
-        клієнтів центр міста та зручне розташування Якщо ви шукаєте, де зробити
-        в м. Черкаси ультразвукову чистку, механічну чистку, пілінг, массаж,
-        мікрострумову терапію та безліч інших корисних для вас та вашої шкіри
-        косметичних процедур, ми щиро раді запропонувати вам свої професійні
-        послуги. Наші переваги – це висока кваліфікація наших косметологів,
-        доступні ціни, приємна і релаксуюча обстановка, яка створена для
-        клієнтів.
-      </p>
+    <section class="section">
+      <div class="container">
+        <h2 class="title">
+          Якщо ви опинилися тут, значить шукаєте хорошу студію для догляду за
+          собою
+        </h2>
+        <p class="text">
+          Вітаємо, ви знайшли її! Фішка салону Flower Lady в тому, що до нас
+          хочеться повертатися.
+        </p>
+        <br />
+        <p class="text"><b>А знаєте чому?</b></p>
+        <br />
+        <p class="text">Тому що у нас:</p>
+        <br />
+        <ul class="list-for-us">
+          <li>затишна обстановка</li>
+          <li>ввічливе спілкування</li>
+          <li>золоті руки наших майстрів</li>
+          <li>
+            гарантія довгострокового результату при дотриманні всіх рекомендацій
+          </li>
+          <li>абсолютна стерильність</li>
+          <li>обов’язкова консультація майстра</li>
+          <li>акції та спецпропозиції для постійних клієнтів</li>
+          <li>центр міста та зручне розташування</li>
+        </ul>
+        <br />
+        <p class="text">
+          Якщо ви шукаєте, де зробити в м. Черкаси ультразвукову чистку,
+          механічну чистку, пілінг, массаж, мікрострумову терапію та безліч
+          інших корисних для вас та вашої шкіри косметичних процедур, ми щиро
+          раді запропонувати вам свої професійні послуги. Наші переваги – це
+          висока кваліфікація наших косметологів, доступні ціни, приємна і
+          релаксуюча обстановка, яка створена для клієнтів.
+        </p>
+      </div>
     </section>
 
     <!-- OUR TEAM -->
-    <section>
-      <h2>Наша команда</h2>
-      <p>Тисни на фото, щоб дізнатися подробиці</p>
-      <ul>
-        <li><img src="./images/natalya.jpg" alt="Natalya" width="260" /></li>
-        <li><img src="./images/zhanna.jpg" alt="Zhanna" width="260" /></li>
-        <li><img src="./images/oksana.jpg" alt="Oksana" width="260" /></li>
-      </ul>
+    <section class="section">
+      <div class="container">
+        <h2 class="title">Наша команда</h2>
+        <p class="text">Тисни на фото, щоб дізнатися подробиці</p>
+        <ul class="list-our-team">
+          <li><img src="./images/natalya.jpg" alt="Natalya" width="260" /></li>
+          <li><img src="./images/zhanna.jpg" alt="Zhanna" width="260" /></li>
+          <li><img src="./images/oksana.jpg" alt="Oksana" width="260" /></li>
+        </ul>
+      </div>
     </section>
 
     <!-- REVIEWS -->
-    <section>
-      <h2>Відгуки про нашу роботу</h2>
-      <p>
-        При натисканні на будь-який відгук, можна подивитися його оригінал на
-        сайті Barb.ua. Це підтверджує, що ми розміщуємо лише живі, справжні
-        відгуки від реальних клієнтів.
-      </p>
-      <a href="https://barb.ua/uk/cherkassy/salon/flady/comments">Тицяй</a>
+    <section class="section">
+      <div class="container">
+        <h2 class="title">Відгуки про нашу роботу</h2>
+        <p>
+          При натисканні на будь-який відгук, можна подивитися його оригінал на
+          сайті Barb.ua. Це підтверджує, що ми розміщуємо лише живі, справжні
+          відгуки від реальних клієнтів.
+        </p>
+        <a href="https://barb.ua/uk/cherkassy/salon/flady/comments">Тицяй</a>
+      </div>
     </section>
 
     <!-- FIND US -->
-    <section>
-      <h2>Дивіться на відео, як нас знайти</h2>
-      <video
-        src="./video/find-us.mp4"
-        width="480"
-        height="480"
-        controls
-      ></video>
+    <section class="section">
+      <div class="container">
+        <h2 class="title">Дивіться на відео, як нас знайти</h2>
+        <video
+          src="./video/find-us.mp4"
+          width="480"
+          height="480"
+          controls
+        ></video>
+      </div>
     </section>
 
     <!-- FOOTER -->
-    <h2>Flower Lady</h2>
-    <p>Авторське право © 2023 Flower Lady. Всі права захищено.</p>
+    <div class="container">
+      <h2 class="title">Flower Lady</h2>
+      <p>Авторське право © 2023 Flower Lady. Всі права захищено.</p>
+    </div>
   </body>
 </html>
