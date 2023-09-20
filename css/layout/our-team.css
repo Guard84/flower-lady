@@ -1,6 +1,21 @@
+.title-section {
+  color: var(--primary-color);
+  font-family: "Gloock", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 14px;
+}
+
 .list-our-team {
   display: flex;
   flex-direction: column;
   gap: 24px;
   margin-top: 20px;
+}
+
+.our-team-container {
+  background-color: var(--second-background);
 }
