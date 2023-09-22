@@ -12,3 +12,18 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+.text-for-us {
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 15px;
+}
+
+.list-for-us {
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+  background-color: rgb(8, 3, 39, 0.8);
+  color: var(--first-background);
+}
