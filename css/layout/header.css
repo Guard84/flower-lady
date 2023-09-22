@@ -1,6 +1,7 @@
 .header-container {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .nav-header {
@@ -15,4 +16,22 @@
 	display: block;
 	width: 35px;
 	margin-top: 8px;
+	margin-bottom: 8px;
 }
+
+.mobile-button-menu { 
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border: none;
+		padding: 0;
+		background-color: transparent;
+		cursor: pointer;
+		opacity: 1;
+		visibility: visible;
+		pointer-events: auto;
+	}
+
+	.icon-mobile-menu {
+		fill: rgba(47, 47, 55, 1);
+	}
